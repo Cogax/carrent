@@ -3,13 +3,10 @@ package ch.cogax.car;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
 public class CarServiceImpl implements CarService {
 
 	private CarRepository carRepository;
 
-	@Autowired
 	public CarServiceImpl(CarRepository carRepository) {
 		this.carRepository = carRepository;
 	}
