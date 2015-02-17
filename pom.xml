@@ -4,4 +4,10 @@
   <artifactId>carrent-parent</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
+  <modules>
+  	<module>carrent-domain</module>
+  	<module>carrent-api</module>
+  	<module>carrent-persistence</module>
+  	<module>carrent-service</module>
+  </modules>
 </project>
